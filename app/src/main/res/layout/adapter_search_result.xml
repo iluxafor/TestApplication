@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.card.MaterialCardView
+        android:layout_width="match_parent"
+        android:layout_height="88dp"
+        app:cardUseCompatPadding="true"
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools">
+
+    <android.support.constraint.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingStart="@dimen/list_default_horizontal_margin"
+            android:paddingEnd="@dimen/list_default_horizontal_margin"
+            android:background="?android:attr/selectableItemBackground">
+
+        <TextView
+                android:id="@+id/adapter_search_result_price_view"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:fontFamily="sans-serif"
+                android:textColor="@color/color_primary_text_light"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                tools:text="1200"/>
+
+        <TextView
+                android:id="@+id/adapter_search_result_name_view"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="16dp"
+                android:textSize="18sp"
+                android:fontFamily="sans-serif"
+                android:textColor="@color/color_primary_text_light"
+                android:maxLines="2"
+                android:ellipsize="end"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintEnd_toStartOf="@id/adapter_search_result_price_view"
+                app:layout_constraintBottom_toTopOf="@+id/adapter_search_result_flights_view"
+                app:layout_constraintVertical_chainStyle="packed"
+                tools:text="Hotel name"/>
+
+        <TextView
+                android:id="@+id/adapter_search_result_flights_view"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="4dp"
+                android:textSize="12sp"
+                android:fontFamily="sans-serif"
+                android:textColor="@color/color_secondary_text_light"
+                android:lines="1"
+                app:layout_constraintTop_toBottomOf="@id/adapter_search_result_name_view"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintStart_toStartOf="@id/adapter_search_result_name_view"
+                app:layout_constraintEnd_toEndOf="@id/adapter_search_result_name_view"
+                tools:text="3 flights"/>
+
+    </android.support.constraint.ConstraintLayout>
+
+</android.support.design.card.MaterialCardView>

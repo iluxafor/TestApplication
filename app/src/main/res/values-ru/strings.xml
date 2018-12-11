@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="adapter_search_result_flights_none">Нет вариантов перелета</string>
+    <string name="adapter_search_result_flights_form1">%d вариант перелета</string>
+    <string name="adapter_search_result_flights_form2">%d варианта перелета</string>
+    <string name="adapter_search_result_flights_form5">%d вариантов перелета</string>
+    <string name="adapter_search_result_price_single">%d ₽</string>
+    <string name="adapter_search_result_price_from">от %d ₽</string>
+
+    <string name="adapter_search_result_company_price">%d ₽</string>
+
+    <string name="fragment_search_failed_message">Не удалось загрузить список отелей, пожалуйста, попробуйте позже</string>
+    <string name="fragment_search_empty_message">По вашему запросу не нашлось ни одного отеля</string>
+
+</resources>

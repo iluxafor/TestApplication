@@ -1,0 +1,17 @@
+<resources>
+
+    <string name="app_name" translatable="false">TestApplication</string>
+
+    <string name="adapter_search_result_flights_none">No flight variants</string>
+    <string name="adapter_search_result_flights_form1">%d flight variant</string>
+    <string name="adapter_search_result_flights_form2">%d flight variants</string>
+    <string name="adapter_search_result_flights_form5">%d flight variants</string>
+    <string name="adapter_search_result_price_single">%d ₽</string>
+    <string name="adapter_search_result_price_from">from %d ₽</string>
+
+    <string name="adapter_search_result_company_price">%d ₽</string>
+
+    <string name="fragment_search_failed_message">Failed to load hotels list, please try again later</string>
+    <string name="fragment_search_empty_message">There are no hotels found for your request</string>
+
+</resources>
